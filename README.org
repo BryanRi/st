@@ -1,4 +1,4 @@
-* Dmenu 5.1
+* ST 0.8.5
 This is my patched build for Suckless' terminal [[https://st.suckless.org/][st]]. All applied patches can be found in the =patches= directory.
 
 * Patches
@@ -11,15 +11,15 @@ This build has been patched with:
 * Installation
 To install this build of =st= first clone this repo:
 #+BEGIN_SRC 
-$ git clone https://github.com/BryanRi/dmenu.git
+$ git clone https://github.com/BryanRi/st.git
 #+END_SRC
 Then go into the =st= directory and install it:
 #+BEGIN_SRC 
-$ cd dmenu
+$ cd st
 $ sudo make clean install
 #+END_SRC
 
-* TODO
+* Todo
 Add the following patches:
 - =copy-url=
 - =csi_22_23=
