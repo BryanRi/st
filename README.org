@@ -1,0 +1,28 @@
+* Dmenu 5.1
+This is my patched build for Suckless' terminal [[https://st.suckless.org/][st]]. All applied patches can be found in the =patches= directory.
+
+* Patches
+This build has been patched with:
+- =Anysize= --- fix sizing issues for tilling window managers.
+- =Externalpipe= --- reading and writing st's screen through a pipe.
+- =Externalpipe-eternal= --- use externalpipe onto the entire terminal history (requires scrollback patch).
+- =Scrollback= --- Scroll back through terminal output.
+
+* Installation
+To install this build of =st= first clone this repo:
+#+BEGIN_SRC 
+$ git clone https://github.com/BryanRi/dmenu.git
+#+END_SRC
+Then go into the =st= directory and install it:
+#+BEGIN_SRC 
+$ cd dmenu
+$ sudo make clean install
+#+END_SRC
+
+* TODO
+Add the following patches:
+- =copy-url=
+- =csi_22_23=
+- =invert=
+- =keyboard-select=
+- =universal-scroll=
