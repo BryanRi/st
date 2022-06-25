@@ -1,4 +1,8 @@
 config.h
 st
+st.c.orig
+st.h.orig
+st.h.rej
 st.o
 x.o
+x.c.orig
