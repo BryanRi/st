@@ -1,8 +1,12 @@
+config.def.h.orig
+config.def.h.rej
 config.h
 st
 st.c.orig
+st.c.rej
 st.h.orig
 st.h.rej
 st.o
 x.o
 x.c.orig
+x.c.rej
