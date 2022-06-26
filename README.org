@@ -32,8 +32,6 @@ Some useful keybindings:
 
 * Todo
 Add the following patches:
-- =copy-url=
 - =csi_22_23=
-- =invert=
 - =keyboard-select=
 - =universal-scroll=
