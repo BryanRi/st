@@ -206,10 +206,10 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
         // SCROLLBACK PATCH
-	{ MODKEY,               XK_k,           kscrollup,      {.i =  1} },
-	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
-	{ MODKEY,               XK_u,           kscrollup,      {.i = -1} },
-	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
+	{ ControlMask,          XK_e,           kscrollup,      {.i =  1} },
+	{ ControlMask,          XK_n,           kscrolldown,    {.i =  1} },
+	{ MODKEY,               XK_e,           kscrollup,      {.i = -1} },
+	{ MODKEY,               XK_n,           kscrolldown,    {.i = -1} },
 	// EXTERNALPIPE_PATCH
 	{ MODKEY,               XK_l,           externalpipe,   {.v = openurlcmd } },
 	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
