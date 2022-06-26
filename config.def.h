@@ -208,8 +208,8 @@ static Shortcut shortcuts[] = {
 	// INVERT PATCH
 	{ TERMMOD,              XK_R,           invert,         { }       },
         // SCROLLBACK PATCH
-	{ ControlMask,          XK_e,           kscrollup,      {.i =  1} },
-	{ ControlMask,          XK_n,           kscrolldown,    {.i =  1} },
+	{ TERMMOD,              XK_e,           kscrollup,      {.i =  1} },
+	{ TERMMOD,              XK_n,           kscrolldown,    {.i =  1} },
 	{ MODKEY,               XK_e,           kscrollup,      {.i = -1} },
 	{ MODKEY,               XK_n,           kscrolldown,    {.i = -1} },
 	// EXTERNALPIPE_PATCH
