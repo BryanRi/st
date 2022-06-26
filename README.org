@@ -19,6 +19,17 @@ $ cd st
 $ sudo make clean install
 #+END_SRC
 
+* Key bindings
+Some useful keybindings:
+- =C-S-n=, =C-S-e= --- zoom in/out
+- =C-n=, =C-e= --- scroll up/down one line
+- =M-n=, =M-e= --- scroll up/down one page
+- =C-S-c=, =C-S-v= --- copy/paste
+- =M-l=, =M-y= --- open/copy urls visible in the terminal (chosen with dmenu)(*)
+- =M-o= --- copy output from a command to the clipboard (command is chosen with dmenu)(*)
+  
+(*) Require the scripts =st-copyout= and =st-urlhandler= to be in the PATH.
+
 * Todo
 Add the following patches:
 - =copy-url=
